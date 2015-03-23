@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/reminderEditText"
+        android:hint="Reminder Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/pickerContainer"
+        android:layout_below="@+id/reminderEditText"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Spinner
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:text="Done"
+        android:layout_below="@id/pickerContainer"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
