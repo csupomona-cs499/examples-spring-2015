@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/addClass"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Class"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/dropClass"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom|withText"
+        android:title="Drop Class" />
+
+    <item android:id="@+id/searchClass"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|withText"
+        android:title="Search Class" />
+
+    <item android:id="@+id/shareClass"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="ifRoom|withText"
+        android:title="Share Class" />
+
+</menu>
