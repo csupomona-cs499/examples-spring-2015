@@ -20,6 +20,7 @@
         <activity android:name=".LinearActivity"></activity>
         <activity android:name=".RelativeActivity"></activity>
         <activity android:name=".FBDemoActivity"></activity>
+        <activity android:name=".TinderActivity"/>
     </application>
 
 </manifest>

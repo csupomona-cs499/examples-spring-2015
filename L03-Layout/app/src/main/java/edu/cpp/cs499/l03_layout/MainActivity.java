@@ -40,6 +40,14 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+        Button button4 = (Button) findViewById(R.id.tinderDemoButton);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TinderActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

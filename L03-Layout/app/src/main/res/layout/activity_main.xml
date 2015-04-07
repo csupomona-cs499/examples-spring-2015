@@ -23,4 +23,11 @@
         android:text="FB Demo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tinderDemoButton"
+        android:padding="10dp"
+        android:text="Tinder Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
