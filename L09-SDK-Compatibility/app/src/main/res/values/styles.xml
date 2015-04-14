@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="OldAppTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <!-- The Material Design can ONLY be used with API level >= 21 -->
+    <!--<style name="NewAppTheme" parent="android:Theme.Material">-->
+
+    <!--</style>-->
+
+</resources>
