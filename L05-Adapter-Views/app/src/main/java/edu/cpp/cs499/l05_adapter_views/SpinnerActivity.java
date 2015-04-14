@@ -26,11 +26,15 @@ public class SpinnerActivity extends ActionBarActivity {
                 android.R.layout.simple_spinner_dropdown_item, colors);
         spinner.setAdapter(spinnerAdapter);
 
-
-        spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(SpinnerActivity.this, colors[position], Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
             }
         });
     }
