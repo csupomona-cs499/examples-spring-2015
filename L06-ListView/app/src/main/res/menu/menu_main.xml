@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/addFriendItem"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="Add Friend"/>
+
+    <item android:id="@+id/removeFriendItem"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom"
+        android:title="Delete Friend"/>
+
+    <item android:id="@+id/shareFriendItem"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"
+        android:title="Add Friend"/>
+</menu>
