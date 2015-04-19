@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/yusun/workspace/cs499/code-examples/L07-HTTP-Network-PhotoGallery/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"/>
+</resources>

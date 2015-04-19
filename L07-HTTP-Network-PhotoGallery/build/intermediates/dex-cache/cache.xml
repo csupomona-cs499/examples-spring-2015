@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yusun/Downloads/adt-bundle-mac/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/yusun/AndroidStudioProjects/PhotoGallery/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-a6fa184635b3e375cb54bc201fb36169b14f260f.jar" />
+    </item>
+    <item
+        jar="/Users/yusun/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/yusun/AndroidStudioProjects/PhotoGallery/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-3fde0d302a38d32f2a3c34da3bb3dbade8a892e1.jar" />
+    </item>
+
+</items>
