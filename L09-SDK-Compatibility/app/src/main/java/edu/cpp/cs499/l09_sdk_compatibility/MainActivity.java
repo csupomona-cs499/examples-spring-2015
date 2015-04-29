@@ -7,6 +7,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -17,10 +19,13 @@ public class MainActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_main);
 
+        ActionBar actionBar = this.getSupportActionBar();
+        actionBar.setSubtitle("Bodies of Water");
+
         // a good practice to check the build version at runtime
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            ActionBar actionBar = getSupportActionBar();
-            actionBar.setSubtitle("Bodies of Water");
+            LinearLayout container = (LinearLayout) findViewById(R.id.container);
+            container.addView(new Switch(this));
         }
     }
 
